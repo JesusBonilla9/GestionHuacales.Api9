@@ -16,7 +16,7 @@ namespace GestionHuacales.Api9.Controllers
         {
             return await entradaHuacalesServices.ListarTipos(t => true);
         }
-
+        
         // GET api/<TiposHuacalesController>/5
         [HttpGet("{id}")]
         public async Task<TiposHuacalesDTO[]> Get(int id)
