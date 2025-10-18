@@ -1,7 +1,6 @@
 ﻿using GestionHuacales.Api9.DAL;
 using GestionHuacales.Api9.DTO;
 using GestionHuacales.Api9.Models;
-using GestionHuacales.Api9.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
